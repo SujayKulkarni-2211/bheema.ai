@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bheema.ai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Bheema.ai</h2>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tech.html" class="nav-link">Explore Tech</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="login.html" class="nav-link active">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="login-main">
+        <div class="login-container">
+            <div class="login-card">
+                <h2>Access Dashboard</h2>
+                <div class="demo-notice">
+                    <p><strong>Demo Notice:</strong> This page exists only to demonstrate the flow. Enter anything to proceed.</p>
+                </div>
+                
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter any username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter any password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Login to Dashboard</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Goodwinsun. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

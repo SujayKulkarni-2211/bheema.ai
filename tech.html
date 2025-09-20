@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology - Bheema.ai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Bheema.ai</h2>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="tech.html" class="nav-link active">Explore Tech</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="login.html" class="nav-link">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="tech-main">
+        <div class="container">
+            <h1>Technology Stack & Architecture</h1>
+            
+            <section class="tech-overview">
+                <div class="tech-overview-content">
+                    <h2>System Architecture</h2>
+                    <p>Bheema.ai leverages cutting-edge AI and machine learning technologies to provide comprehensive legal metrology compliance checking for e-commerce platforms. Our hybrid edge-cloud architecture ensures real-time processing with government-grade security.</p>
+                </div>
+                
+                <div class="architecture-chart">
+                    <h3>System Architecture Flow</h3>
+                    <div class="chart-container">
+                        <div class="architecture-layer">
+                            <h4>Frontend Layer</h4>
+                            <div class="layer-components">
+                                <span class="component">React Dashboard</span>
+                                <span class="component">Progressive Web App</span>
+                                <span class="component">Mobile Interface</span>
+                            </div>
+                        </div>
+                        <div class="architecture-arrow">↓</div>
+                        
+                        <div class="architecture-layer">
+                            <h4>API Gateway</h4>
+                            <div class="layer-components">
+                                <span class="component">Authentication</span>
+                                <span class="component">Rate Limiting</span>
+                                <span class="component">Load Balancing</span>
+                            </div>
+                        </div>
+                        <div class="architecture-arrow">↓</div>
+                        
+                        <div class="architecture-layer">
+                            <h4>Microservices</h4>
+                            <div class="layer-components">
+                                <span class="component">OCR Service</span>
+                                <span class="component">Compliance Engine</span>
+                                <span class="component">Notification Service</span>
+                            </div>
+                        </div>
+                        <div class="architecture-arrow">↓</div>
+                        
+                        <div class="architecture-layer">
+                            <h4>Data Layer</h4>
+                            <div class="layer-components">
+                                <span class="component">PostgreSQL</span>
+                                <span class="component">Redis Cache</span>
+                                <span class="component">File Storage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workflow-container">
+                    <h3>Live Agent Workflow</h3>
+                    <div class="workflow-diagram">
+                        <div class="workflow-step active">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Image Capture</h4>
+                                <p>Agent captures product images</p>
+                                <div class="step-status">Active</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>OCR Processing</h4>
+                                <p>Extract text using AI</p>
+                                <div class="step-status">Ready</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Compliance Check</h4>
+                                <p>Analyze against regulations</p>
+                                <div class="step-status">Ready</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Report Generation</h4>
+                                <p>Generate compliance report</p>
+                                <div class="step-status">Ready</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="module-details">
+                <div class="container">
+                    <h2>Core System Modules</h2>
+                    <div class="module-grid">
+                        <div class="module-card">
+                            <h3><i class="fas fa-spider"></i> Web Scraping Engine</h3>
+                            <div class="module-code">
+# Primary Stack
+- Scrapy (Python) - Distributed crawling
+- Selenium WebDriver - Dynamic content
+- BeautifulSoup4 - HTML parsing
+- Requests-HTML - JavaScript rendering
+                            </div>
+                            <ul class="module-list">
+                                <li>Distributed crawling across multiple e-commerce platforms</li>
+                                <li>Rate limiting and respectful crawling policies</li>
+                                <li>Dynamic content handling with headless browsers</li>
+                                <li>Anti-bot detection circumvention</li>
+                                <li>Proxy rotation and IP management</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="module-card">
+                            <h3><i class="fas fa-eye"></i> OCR Processing Pipeline</h3>
+                            <div class="module-code">
+# OCR Stack
+- Tesseract.js (Client-side)
+- PaddleOCR (Server-side)
+- OpenCV (Image preprocessing)
+- PIL/Pillow (Image manipulation)
+                            </div>
+                            <ul class="module-list">
+                                <li>Multi-language support (Hindi, English, regional languages)</li>
+                                <li>Image preprocessing and enhancement</li>
+                                <li>Text region detection and segmentation</li>
+                                <li>Confidence scoring and quality assessment</li>
+                                <li>Real-time processing with WebAssembly</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="module-card">
+                            <h3><i class="fas fa-brain"></i> NLP & Rule Engine</h3>
+                            <div class="module-code">
+# NLP Stack
+- spaCy (Named Entity Recognition)
+- NLTK (Text processing)
+- Transformers (BERT models)
+- RegEx (Pattern matching)
+                            </div>
+                            <ul class="module-list">
+                                <li>Named Entity Recognition for product details</li>
+                                <li>Regulation-aware text normalization</li>
+                                <li>Fuzzy matching for manufacturer names</li>
+                                <li>Date/price extraction and validation</li>
+                                <li>Context-aware compliance scoring</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="module-card">
+                            <h3><i class="fas fa-cloud"></i> Cloud Infrastructure</h3>
+                            <div class="module-code">
+# Infrastructure
+- AWS/Azure (Cloud hosting)
+- Docker (Containerization)
+- Kubernetes (Orchestration)
+- Redis (Caching & queues)
+                            </div>
+                            <ul class="module-list">
+                                <li>Auto-scaling based on workload</li>
+                                <li>Load balancing and failover</li>
+                                <li>Distributed caching for performance</li>
+                                <li>Message queues for async processing</li>
+                                <li>Monitoring and alerting systems</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="module-card">
+                            <h3><i class="fas fa-lock"></i> Security & Compliance</h3>
+                            <div class="module-code">
+# Security Stack
+- JWT (Authentication)
+- bcrypt (Password hashing)
+- HTTPS/TLS (Encryption)
+- OWASP (Security standards)
+                            </div>
+                            <ul class="module-list">
+                                <li>End-to-end encryption for sensitive data</li>
+                                <li>Role-based access control (RBAC)</li>
+                                <li>Audit logging and compliance tracking</li>
+                                <li>Data anonymization and privacy protection</li>
+                                <li>Government security standards compliance</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="module-card">
+                            <h3><i class="fas fa-chart-bar"></i> Analytics & Reporting</h3>
+                            <div class="module-code">
+# Analytics Stack
+- PostgreSQL (Primary database)
+- InfluxDB (Time-series data)
+- Grafana (Dashboards)
+- Apache Spark (Big data processing)
+                            </div>
+                            <ul class="module-list">
+                                <li>Real-time compliance metrics</li>
+                                <li>Trend analysis and forecasting</li>
+                                <li>Custom report generation</li>
+                                <li>Data export for government systems</li>
+                                <li>Performance monitoring and optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="poc-section">
+                <div class="container">
+                    <h2>Proof of Concept & Code Demos</h2>
+                    <div class="poc-cards">
+                        <div class="poc-card-main">
+                            <div class="poc-header">
+                                <div class="poc-icon"><i class="fas fa-robot"></i></div>
+                                <div class="poc-title">
+                                    <h3>AI Agent & OCR Processing Demo</h3>
+                                    <p class="poc-subtitle">Basic POC of AI autonomous agent with real results</p>
+                                </div>
+                            </div>
+                            <div class="poc-content">
+                                <p>Interactive demonstration showing the complete AI agent workflow including OCR processing, compliance checking, and real-time analysis with actual data processing results.</p>
+                                <div class="poc-features">
+                                    <span class="feature-tag">Live OCR Processing</span>
+                                    <span class="feature-tag">Compliance Analysis</span>
+                                    <span class="feature-tag">Real Data Results</span>
+                                </div>
+                            </div>
+                            <div class="poc-action">
+                                <a href="https://colab.research.google.com/drive/1DLuLn58358XsxRjjL4_VmFfTZWRu3NRs?usp=sharing" class="btn-poc-primary" target="_blank">
+                                    <i class="fas fa-rocket"></i> View Initial Results in Jupyter Notebook
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="poc-card-secondary">
+                            <div class="poc-icon"><i class="fas fa-book"></i></div>
+                            <h4>OCR Pipeline Insights</h4>
+                            <p>Advanced text extraction with multi-language support and 99.7% accuracy</p>
+                            <div class="tech-highlights">
+                                <span class="highlight-tag">Tesseract.js</span>
+                                <span class="highlight-tag">PaddleOCR</span>
+                            </div>
+                        </div>
+                        
+                        <div class="poc-card-secondary">
+                            <div class="poc-icon"><i class="fas fa-spider"></i></div>
+                            <h4>Web Scraping Engine</h4>
+                            <p>Automated data collection from 500+ e-commerce platforms with respectful crawling</p>
+                            <div class="tech-highlights">
+                                <span class="highlight-tag">Scrapy</span>
+                                <span class="highlight-tag">Selenium</span>
+                            </div>
+                        </div>
+                        
+                        <div class="poc-card-secondary">
+                            <div class="poc-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4>Analytics Dashboard</h4>
+                            <p>Real-time compliance metrics and predictive insights with government-grade reporting</p>
+                            <div class="tech-highlights">
+                                <span class="highlight-tag">PostgreSQL</span>
+                                <span class="highlight-tag">Grafana</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="workflow">
+                <h2>Autonomous Agent Workflow</h2>
+                <div class="workflow-container">
+                    <div class="workflow-diagram">
+                        <div class="workflow-step active">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Web Scraper Agent</h4>
+                                <p>Automated collection from 500+ e-commerce platforms</p>
+                                <div class="step-status"><i class="fas fa-circle" style="color: green;"></i> Active</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>OCR Processing Agent</h4>
+                                <p>Extract text from product images with 99.7% accuracy</p>
+                                <div class="step-status"><i class="fas fa-circle" style="color: orange;"></i> Processing</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Compliance Validation Agent</h4>
+                                <p>Check against Legal Metrology rules automatically</p>
+                                <div class="step-status"><i class="fas fa-circle" style="color: blue;"></i> Analyzing</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Inspector Dashboard</h4>
+                                <p>Present violations with risk prioritization</p>
+                                <div class="step-status"><i class="fas fa-chart-bar"></i> Ready</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Human-in-Loop Feedback</h4>
+                                <p>Inspector validation and error corrections</p>
+                                <div class="step-status"><i class="fas fa-user"></i> Pending</div>
+                            </div>
+                        </div>
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-number">6</div>
+                            <div class="step-content">
+                                <h4>Online Learning Agent</h4>
+                                <p>Continuous model improvement and retraining</p>
+                                <div class="step-status"><i class="fas fa-brain"></i> Learning</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tech-stack">
+                <h2>Core Technologies</h2>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <h3><i class="fas fa-search"></i> OCR Engine</h3>
+                        <ul>
+                            <li><strong>Tesseract.js</strong> - Client-side OCR processing</li>
+                            <li><strong>PaddleOCR</strong> - Advanced text recognition</li>
+                            <li><strong>OpenCV</strong> - Image preprocessing pipeline</li>
+                            <li><strong>WebAssembly</strong> - High-performance browser execution</li>
+                            <li>Multi-language support for Indian languages</li>
+                            <li>Real-time image processing capabilities</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h3><i class="fas fa-cog"></i> Rule Engine</h3>
+                        <ul>
+                            <li><strong>JSON Schema</strong> - Rule configuration format</li>
+                            <li><strong>Python AST</strong> - Safe expression evaluation</li>
+                            <li><strong>Redis</strong> - Rule caching and performance</li>
+                            <li><strong>Webhook API</strong> - Real-time rule updates</li>
+                            <li>Dynamic rule updates without downtime</li>
+                            <li>Regulatory compliance mapping system</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h3><i class="fas fa-cloud"></i> Hybrid Deployment</h3>
+                        <ul>
+                            <li><strong>Edge Computing</strong> - Sub-100ms response times</li>
+                            <li><strong>AWS Lambda</strong> - Serverless cloud processing</li>
+                            <li><strong>CDN Distribution</strong> - Global content delivery</li>
+                            <li><strong>Progressive Web App</strong> - Offline capabilities</li>
+                            <li>Auto-scaling based on demand</li>
+                            <li>99.9% uptime SLA guarantee</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-card">
+                        <h3><i class="fas fa-robot"></i> Agent Framework</h3>
+                        <ul>
+                            <li><strong>TensorFlow</strong> - Machine learning models</li>
+                            <li><strong>scikit-learn</strong> - Classification algorithms</li>
+                            <li><strong>Reinforcement Learning</strong> - Self-improvement</li>
+                            <li><strong>Active Learning</strong> - Human-in-the-loop training</li>
+                            <li>Continuous model retraining pipeline</li>
+                            <li>A/B testing for model performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="technical-details">
+                <h2>Implementation Details</h2>
+                <div class="container" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <div class="details-grid" style="display: flex; flex-direction: column; align-items: center; gap: 30px;">
+                        <div class="detail-card" style="width: 100%; max-width: 600px;">
+                            <h3>Data Processing Pipeline</h3>
+                            <pre><code>Input Image → Preprocessing → OCR → NLP → Rule Engine → Compliance Score</code></pre>
+                        </div>
+                        
+                        <div class="detail-card" style="width: 100%; max-width: 600px;">
+                            <h3>Machine Learning Models</h3>
+                            <ul style="text-align: left;">
+                                <li>Text Classification for product categories</li>
+                                <li>Named Entity Recognition for extracting key information</li>
+                                <li>Anomaly Detection for unusual patterns</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card" style="width: 100%; max-width: 600px;">
+                            <h3>Compliance Scoring</h3>
+                            <ul style="text-align: left;">
+                                <li>Weighted scoring based on violation severity</li>
+                                <li>Risk assessment algorithms</li>
+                                <li>Priority-based inspection queues</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bheema.ai. All rights reserved. | Patent-Pending Technology | Government of India Compliant</p>
+            <p class="disclaimer">All content here is a simulation and a proof of concept of how the actual product would be. Given a chance, we will be able to build the real implementation, but this is not the actual working product.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
